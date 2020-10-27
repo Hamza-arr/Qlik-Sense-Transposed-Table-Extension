@@ -86,7 +86,13 @@ define(["jquery"], function($) {
 							label: "Background color",
 							expression: "always",
 							defaultValue: "#ffffff"
-						}
+						},
+						headTextColor: {
+							type: "string",
+							ref: "headTextColor",
+							label: "Header text color",
+							expression: "always",
+							defaultValue: "#ffffff"
 					}
                 },
                 sorting: {
